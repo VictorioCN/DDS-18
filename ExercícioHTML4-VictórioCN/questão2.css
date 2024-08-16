@@ -9,6 +9,7 @@ body{
     background-repeat: repeat;
     width: 100%;
     height: 400px;
+    background-attachment: fixed;
 }
 #Q5{
     background-image: url(/ExercícioHTML4-VictórioCN/Gato.jpg);
@@ -25,8 +26,10 @@ body{
 }
 #Q7{
     background-image: url(/ExercícioHTML4-VictórioCN/passaro.jpg);
+    margin-top: 10px;
     background-repeat: no-repeat;
-    width: 600px;
-    height: 500px;
+    width: 100%;
+    height: 400px;
     background-position: center;
+    background-color: brown;
 }
