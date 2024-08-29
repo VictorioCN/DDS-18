@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(255, 255, 255);
+    height: 1000px;
+    margin: 0;
+}
+
+#navbar{
+    position: fixed;
+    background-color: blue;
+    color: white;
+    width: 100%;
+    height: 100px;
+    display: block;
+}
+
+#logo{
+    float: inline-start;
+    padding: 18px;
+    background-color: orangered;
+}
+
+#barra{
+    float: inline-start;
+    padding-top: 14px;
+    font-weight: 100px;
+}
+
+#navbar > ul{
+    list-style:none;
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+}
+
+#navbar > ul > li{
+    display: inline-block;
+    width: 170px;
+    height: 50px;
+}
+
+#navbar > ul > li:hover{
+    text-decoration: underline;
+    color: orange
+}
+
+.itens{
+    font-style: italic;
+    font-size: 16pt;
+    padding: 2px 50px 0px 50px;
+}
+
+#cursos{
+        display:flex;
+        background-color: rgb(207, 211, 211);
+        text-align: center;
+        display:;
+}
+
+.img{
+    height: 200px;
+    width: 400px;
+    padding: 130px 10% 10px 70px;
+
+}
+
+
+#barraBaixa{
+    background-color: blue;
+    width: 100%;
+    padding: 13px;
+    margin-top: 630px;
+    float:inline-start;
+    position:fixed;
+    text-align: center ;
+
+}
