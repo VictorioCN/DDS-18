@@ -1,0 +1,83 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#navbar{
+    position: relative;
+    background-color: blue;
+    color: white;
+    width: 100%;
+    height: 100px;
+    display: block;
+    padding-bottom: 1vh;
+    
+}
+
+#logo{
+    float: inline-start;
+    padding: 18px;
+    background-color: orangered;
+    border-radius: 10px;
+}
+
+#barra{
+    float: inline-start;
+    padding-top: 14px;
+    font-weight: 100px;
+}
+
+#navbar > ul{
+    list-style:none;
+    margin: auto;
+    padding: 1vw 1vh;
+    text-align: center;
+    
+}
+
+#navbar > ul > li{
+    display: inline-block;
+    width: 170px;
+    height: 50px;
+}
+
+/* #navbar > ul > li:hover{
+    
+} */
+
+.itens{
+    color: white;
+    font-style: italic;
+    font-size: 16pt;
+    padding:2vh;
+    border-radius: 10px;
+    background-color: rgb(253, 255, 255);
+}
+
+.video-container {
+    display: flex;
+    justify-content: center; /* Centraliza o vídeo horizontalmente */
+    padding: 20px; /* Adiciona um espaço ao redor do vídeo */
+}
+
+video {
+    border: 2px solid #000; /* Adiciona uma borda ao vídeo */
+    border-radius: 10px; /* Adiciona bordas arredondadas ao vídeo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra ao vídeo */
+}
+
+#barraBaixa{
+    background-color: blue;
+    color: white;
+    min-height: 110px;
+    width: 100%;
+    float:inline-start;
+    position:relative;
+    text-align: center;
+    display: block;
+}
+
