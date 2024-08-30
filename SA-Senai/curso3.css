@@ -83,13 +83,24 @@ body{
     border-radius: 50px;
 }
 
+#principal{
+    color:aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+preco{
+    color: rgb(0, 0, 181);
+}
+
 #barraBaixa{
     background-color: blue;
     color: white;
     min-height: 110px;
     width: 100%;
     float:inline-start;
-    position:relative;
+    position:absolute;
+    bottom: 0;
     text-align: center;
     display: block;
 }

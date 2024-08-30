@@ -1,10 +1,21 @@
 body{
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #808080;
     display: block;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    color: white;
+
+    margin: 0 0;
+
+    position: relative;
+}
+
+h1{
+    color: blue;
+    text-decoration:underline;
+    text-align: center;
 }
 
 #navbar{
@@ -59,15 +70,24 @@ body{
 }
 
 .video-container {
+    text-align: center;
     display: flex;
-    justify-content: center; /* Centraliza o vídeo horizontalmente */
-    padding: 20px; /* Adiciona um espaço ao redor do vídeo */
+    flex-direction: column;
+    justify-content: center; 
+    padding: 30px;
 }
 
 video {
-    border: 2px solid #000; /* Adiciona uma borda ao vídeo */
-    border-radius: 10px; /* Adiciona bordas arredondadas ao vídeo */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra ao vídeo */
+    float: inline-start;
+    border: 2px solid #000; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    
+}
+
+#textinho{
+    float: inline-end;
+    font-size: 16px;
 }
 
 #barraBaixa{
@@ -76,7 +96,8 @@ video {
     min-height: 110px;
     width: 100%;
     float:inline-start;
-    position:relative;
+    position:absolute;
+    bottom: 0;
     text-align: center;
     display: block;
 }
