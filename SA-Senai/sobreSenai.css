@@ -1,0 +1,104 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #808080;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+
+    margin: 0 0;
+
+    position: relative;
+}
+
+h1{
+    color: blue;
+    text-decoration:underline;
+    text-align: center;
+}
+
+#navbar{
+    position: relative;
+    background-color: blue;
+    color: white;
+    width: 100%;
+    height: 100px;
+    display: block;
+    padding-bottom: 1vh;
+    
+}
+
+#logo{
+    float: inline-start;
+    padding: 18px;
+    background-color: orangered;
+    border-radius: 10px;
+}
+
+#barra{
+    float: inline-start;
+    padding-top: 14px;
+    font-weight: 100px;
+}
+
+#navbar > ul{
+    list-style:none;
+    margin: auto;
+    padding: 1vw 1vh;
+    text-align: center;
+    
+}
+
+#navbar > ul > li{
+    display: inline-block;
+    width: 170px;
+    height: 50px;
+}
+
+/* #navbar > ul > li:hover{
+    
+} */
+
+.itens{
+    color: white;
+    font-style: italic;
+    font-size: 16pt;
+    padding:2vh;
+    border-radius: 10px;
+    background-color: rgb(253, 255, 255);
+}
+
+.video-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding: 30px;
+}
+
+video {
+    float: inline-start;
+    border: 2px solid #000; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    
+}
+
+#textinho{
+    float: inline-end;
+    font-size: 16px;
+}
+
+#barraBaixa{
+    background-color: blue;
+    color: white;
+    min-height: 110px;
+    width: 100%;
+    float:inline-start;
+    position:absolute;
+    bottom: 0;
+    text-align: center;
+    display: block;
+}
+

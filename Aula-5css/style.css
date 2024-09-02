@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+#maiusculo{
+    text-transform: uppercase;
+}
+
+#minusculo{
+    text-transform: lowercase;
+}
+
+h1{
+    text-shadow: 2px 2px greenyellow;
+}
+
+#outrafonte{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15pt;
+    font-style: italic;
+    font-weight: 500;
+}
+
+#googlefonte{
+    font-family:"Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}

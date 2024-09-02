@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(0, 255, 242);
+}
+#Q1{
+    background-color:greenyellow;
+}
+#Q3{
+    background-image: url(/ExercícioHTML4-VictórioCN/images.jpg);
+    background-repeat: repeat;
+    width: 100%;
+    height: 400px;
+    background-attachment: fixed;
+}
+#Q5{
+    background-image: url(/ExercícioHTML4-VictórioCN/Gato.jpg);
+    background-repeat: repeat-y;
+    width: 800px;
+    height: 2000px;
+    
+}
+#Q6{
+    background-image: url(/ExercícioHTML4-VictórioCN/Turtle.jpg);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 200px;
+}
+#Q7{
+    background-image: url(/ExercícioHTML4-VictórioCN/passaro.jpg);
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-color: brown;
+}
